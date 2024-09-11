@@ -15,13 +15,13 @@ Ackerman Union|This is Ackerman where you buy stuff.
 John Wooden Center|This is where you go to get swole.  
 Diddy Riese|They sell yummy cheap cookies here.  
 
-The output is a set of instructions for a BruinTour robot to follow in order to give its tour. Instructions fall into three different categories:
+The output is a set of instructions for a BruinTour robot to follow in order to give its tour. Instructions fall into three different categories:  
 ● Commentary: Instructs the robot to give commentary about the current PoI, e.g., "John
-Wooden Center: This is where you get swole."
-● Proceed: Instructs the robot to proceed in a particular direction on a street
-● Turn: Instructs the robot to make a turn from one street onto another 
+Wooden Center: This is where you get swole."  
+● Proceed: Instructs the robot to proceed in a particular direction on a street  
+● Turn: Instructs the robot to make a turn from one street onto another   
 
-The output is shown as:
+The output is shown as:  
 Starting tour...  
 Welcome to Ackerman Union!  
 This is Ackerman where you buy stuff.  
