@@ -10,10 +10,10 @@ lists the latitude and longitude of each street block by block (this data is der
 Open Street Map service). The data file also contains dozens of "points of interest"
 (PoIs) that are candidates for the tour (e.g., Diddy Riese, Kerckhoff Hall, etc.)
 2. stops.txt: A proposed list of points of interest (PoIs) for a given tour along with a
-description of each PoI for the robot to vocalize, e.g.:
-Ackerman Union|This is Ackerman where you buy stuff.
-John Wooden Center|This is where you go to get swole.
-Diddy Riese|They sell yummy cheap cookies here.
+description of each PoI for the robot to vocalize, e.g.:  
+Ackerman Union|This is Ackerman where you buy stuff.  
+John Wooden Center|This is where you go to get swole.  
+Diddy Riese|They sell yummy cheap cookies here.  
 
 The output is a set of instructions for a BruinTour robot to follow in order to give its tour. Instructions fall into three different categories:
 ● Commentary: Instructs the robot to give commentary about the current PoI, e.g., "John
@@ -22,16 +22,16 @@ Wooden Center: This is where you get swole."
 ● Turn: Instructs the robot to make a turn from one street onto another 
 
 The output is shown as:
-Starting tour...
-Welcome to Ackerman Union!
-This is Ackerman where you buy stuff.
-Proceed 0.028 miles north on a path
-Take a left turn on Bruin Walk
-Proceed 0.098 miles west on Bruin Walk
-Take a right turn on a path
-Proceed 0.074 miles north on a path
-Welcome to John Wooden Center!
-This is where you go to get swole.
+Starting tour...  
+Welcome to Ackerman Union!  
+This is Ackerman where you buy stuff.  
+Proceed 0.028 miles north on a path  
+Take a left turn on Bruin Walk  
+Proceed 0.098 miles west on Bruin Walk  
+Take a right turn on a path  
+Proceed 0.074 miles north on a path  
+Welcome to John Wooden Center!  
+This is where you go to get swole.  
 
 ## GeoDataBase Class
 
