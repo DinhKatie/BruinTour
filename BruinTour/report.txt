@@ -1,9 +1,0 @@
-report
-
-load(): Going through my load function, reading each line in the map file is O(N), where N is the number of lines. If there are points of interest on a line segment, forPOI() runs in O(1) due to hashmap insertion and vector pushback. It then inserts appropriate points to their appropriate hashmaps, which is O(1). It then loops through each POI on a line segment to store into a pointsOfInterest hashmap, resulting in O(P) for each point of interest. Therefore, load() is O(P*N).
-
-get_street_name(): O(1). It uses my hashmap's find(), which is O(1), on two different strings, and returns the appropriate result.
-
-get_connected_points(): O(1), it uses my hash map to return the vector of connected points, which have all been added during load().
-
-route(): I used the A* search algorithm. Per FAQ #6, I describe my data structures: I used the STL's priority queue to keep track of the lowest f-scores as per A* pseudocode. I implemented a struct "Cell" made up of a GeoPoint and f-score so i could track the lowest f-score through the priority queue. I also used my hashmap class to store gscores and fscores.
